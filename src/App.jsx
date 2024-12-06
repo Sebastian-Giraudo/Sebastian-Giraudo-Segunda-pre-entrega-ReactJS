@@ -1,3 +1,5 @@
+import NavBar from './components/NavBar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import './App.css'
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <div>
-      <h1>Ecommerce primera entrega</h1>
+      <NavBar />
+      <ItemListContainer saludo={"Bienvenido a nuestra tienda"}/>
     </div>
 
   )
