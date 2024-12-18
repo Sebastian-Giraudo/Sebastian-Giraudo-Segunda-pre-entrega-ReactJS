@@ -4,8 +4,8 @@ import { FaCartArrowDown } from "react-icons/fa6";
 const CartWidget = () => {
     return (
         <div className="cartwidget">
-            <FaCartArrowDown size={30}/>
-            <p>0</p>
+            <FaCartArrowDown className="icon-cartwidget" />
+            <p className="number-cartwidget">0</p>
         </div>
     )
 }
